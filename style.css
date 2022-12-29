@@ -788,16 +788,16 @@ h4 {
 }
 
 .tc-white {
-    color: #080808 !important;
+    color: #d7c8c8 !important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #5C250C;
     color: #FFFFFF !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
+    background: black !important;
     color: #FFFFFF !important;
 }
 
