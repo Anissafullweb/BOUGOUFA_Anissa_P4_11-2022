@@ -12,6 +12,10 @@ button {
     transition: all .3s ease-in-out;
 }
 
+:focus {
+    border: red 5px solid !important;
+}
+
 a,
 button:focus {
     color: red;
@@ -390,6 +394,7 @@ a:hover {
     z-index: 2;
 }
 
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -738,6 +743,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: #000000 !important;
 }
 
 h2 {
@@ -760,7 +766,11 @@ h3 {
 
 h1 {
     color: #333333 !important;
-    background-color: #ffffff;
+
+}
+
+#title_main {
+    color: #FFF !important;
 }
 
 h4 {
@@ -813,8 +823,8 @@ h4 {
 }
 
 .tc-white {
-    background-color: #FFF;
-    color: #080808 !important;
+    /* background-color: #FFF;*/
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
